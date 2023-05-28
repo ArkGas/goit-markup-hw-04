@@ -1,9 +1,3 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -91,6 +85,9 @@ header {
 .box-title {
   background-color: #2f303a;
   min-height: 600px;
+  background-image: url(/images/dd953143a8a4d9f86ec8d71afc0e8103.jpg);
+  background-size: contain;
+  object-fit: contain;
 }
 .item-title {
   display: flex;
@@ -201,7 +198,7 @@ article:last-child {
 .person {
   box-sizing: border-box;
   width: 270px;
-  height: 368px;
+  height: 428px;
   margin: 0 auto;
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -303,4 +300,24 @@ article:last-child {
 .left {
   display: flex;
   align-items: center;
+}
+.social-link {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.icon-cont {
+  max-width: 10px;
+  max-height: 16px;
+}
+.icon-client {
+  max-width: 170px;
+  max-height: 92px;
+}
+.icon-lorem {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.social-box-icon {
 }
