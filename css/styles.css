@@ -85,9 +85,12 @@ header {
 .box-title {
   background-color: #2f303a;
   min-height: 600px;
-  background-image: url(/images/dd953143a8a4d9f86ec8d71afc0e8103.jpg);
+
   background-size: contain;
   object-fit: contain;
+  background: rgba(47, 48, 58, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(/images/dd953143a8a4d9f86ec8d71afc0e8103.jpg);
 }
 .item-title {
   display: flex;
@@ -310,6 +313,11 @@ article:last-child {
   max-width: 10px;
   max-height: 16px;
 }
+
+.icon-cont-e {
+  max-width: 16px;
+  max-height: 12px;
+}
 .icon-client {
   max-width: 170px;
   max-height: 92px;
@@ -320,4 +328,11 @@ article:last-child {
   background-color: #f5f4fa;
 }
 .social-box-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
