@@ -321,7 +321,9 @@ article:last-child {
 .icon-client {
   max-width: 170px;
   max-height: 92px;
+  fill: #afb1b8;
 }
+
 .icon-lorem {
   width: 270px;
   height: 120px;
@@ -330,6 +332,7 @@ article:last-child {
 .social-box-icon {
   display: flex;
   justify-content: space-evenly;
+  fill: #afb1b8;
 }
 .client {
   display: flex;
