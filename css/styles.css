@@ -339,6 +339,16 @@ article:last-child {
   max-width: 170px;
   max-height: 92px;
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  padding: 16px 32px;
+}
+.icon-client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.icon-client:focus {
+  fill: #2196f3;
+  border-color: #2196f3;
 }
 
 .icon-lorem {
@@ -369,4 +379,7 @@ article:last-child {
   display: flex;
   flex-direction: column;
   padding-top: 94px;
+}
+.client-box-icon {
+  display: flex;
 }
